@@ -1,5 +1,5 @@
 .container{
-    border-radius: 20px;
+    
     height: 600px;
     width: 600px;
     border: 20px solid black
@@ -7,5 +7,9 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+.grid{
+    background-color: red;
+    height: calc(600px / 16);
+    width: calc(600px / 16);
 }
