@@ -1,8 +1,7 @@
 .container{
-    
     height: 600px;
     width: 600px;
-    border: 20px solid black
+    border: 20px solid black;
 }
 body{
     display: flex;
