@@ -9,7 +9,7 @@ function gridMaker(n){
         grid.style.backgroundColor = "white";
         grid.style.width = `calc(600px/${n})`;
         grid.style.height = `calc(600px/${n})`;
-        grid.addEventListener('mouseenter',()=>{
+        grid.addEventListener('mouseover',()=>{
             grid.style.backgroundColor = "black";
         });
         container.appendChild(grid);
