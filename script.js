@@ -15,4 +15,14 @@ function gridMaker(n){
         container.appendChild(grid);
     }
 }
-gridMaker(100);
+
+const button = document.getElementById('btn');
+button.addEventListener('click',()=>{
+    let resolution = prompt('Enter resolution (Max value can be 100)');
+    let gridPixels = container.querySelectorAll('div');
+    gridPixels.forEach(gridPixel => gridPixel.remove());
+    if(resolution<=100){
+        gridMaker(resolution);
+    }
+})
+
