@@ -15,4 +15,4 @@ function gridMaker(n){
         container.appendChild(grid);
     }
 }
-gridMaker(64);
+gridMaker(100);
